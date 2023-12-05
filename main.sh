@@ -7,7 +7,7 @@ MD_FOLDER="MDs"
 PDF_FOLDER="PDFs"
 
 # Comando base
-BASE_COMMAND="mdpdf --gh-style --border=10mm --format=Letter"
+BASE_COMMAND="mdpdf --style=style.css --gh-style --border=10mm --format=Letter"
 
 # Iterar sobre los archivos .md en la carpeta
 for file in "$MD_FOLDER"/*.md; do
