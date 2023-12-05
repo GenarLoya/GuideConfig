@@ -1,0 +1,18 @@
+{
+  "name": "guideconfig",
+  "version": "1.0.0",
+  "description": "",
+  "main": "massToPDF.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "conv": "node massToPDF.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mdpdf": "^3.0.1"
+  }
+}
